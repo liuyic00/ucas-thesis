@@ -62,3 +62,10 @@ $ a = b + c $
 #ucas-enum-number(1) 标号
 
 #ucas-enum-number(2) 标号
+
+== 删除和添加
+
+内容内容内容。
+#ucas-del[一个中文句子。]
+#ucas-add[另一个中文句子。]
+内容内容内容。

@@ -16,6 +16,7 @@
 #import "component/ucas-anonymous.typ": ucas-anonymous, ucas-anonymous-bypath
 #import "component/ucas-enum-number.typ": ucas-enum-number, ucas-enum-number-reset, ucas-enum-number-show-rules
 #import "component/ucas-figure.typ": ucas-figure, ucas-subfigure
+#import "component/ucas-modify.typ": ucas-add, ucas-del
 #import "component/ucas-table.typ": ucas-table
 #import "../common/component.typ": word-count-cjk, word-count-cjk-gen-metadata
 
