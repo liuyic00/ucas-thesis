@@ -22,6 +22,7 @@
 
 #let document(
   anonymous: false,
+  duplex-print: false,
   // cover-page
   degree-level: "<degree-level: 博士/硕士>",
   thesis-type: auto,
@@ -85,6 +86,7 @@
       ),
       time: date.display("[year] 年 [month padding:none] 月"),
     )
+    if (duplex-print) { pagebreak(to: "odd") }
 
     en-info-page(
       anonymous: anonymous,
@@ -98,8 +100,10 @@
       author-affiliation-en: author-affiliation-en,
       date: date,
     )
+    if (duplex-print) { pagebreak(to: "odd") }
 
     declaration-page(anonymous: anonymous)
+    if (duplex-print) { pagebreak(to: "odd") }
 
     if (has-book-spine-page) {
       book-spine-page(
@@ -107,6 +111,7 @@
         title: title,
         author: author,
       )
+      if (duplex-print) { pagebreak(to: "odd") }
     }
   }
 

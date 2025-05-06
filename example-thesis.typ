@@ -1,7 +1,13 @@
 #import "/template/lib.typ": thesis-template
 
 #thesis-template.document(
-  anonymous: false, // false: 不匿名. true: 匿名.
+  // anonymous: false: 不匿名. true: 匿名.
+  anonymous: false,
+  // duplex-print:
+  // false: 普通模式，和 Word 模板一致.
+  // true:  双面打印模式，在封面、英文信息、声明、书脊页后添加空白页，以在双面打
+  //        印中保持单面.
+  duplex-print: false,
   // - cover-page 封面
   degree-level: "硕士", // "硕士" 或 "博士"
   thesis-type: auto, // auto: 根据 degree-level 自动生成. 其他: 自定义.
