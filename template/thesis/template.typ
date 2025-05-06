@@ -22,6 +22,8 @@
   )
   // - 设置下划线样式
   set underline(evade: false)
+  // - 两侧对齐
+  set par(justify: true)
 
   rest
 }
