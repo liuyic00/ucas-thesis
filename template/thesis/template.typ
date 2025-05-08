@@ -176,7 +176,6 @@
     it
     v(6pt)
   }
-  show figure.where(kind: table): set block(breakable: true)
   set table.hline(stroke: 0.5pt + black)
 
   rest
