@@ -24,8 +24,8 @@
   thesis-type-en: auto, // auto: 根据 degree-level 自动生成. 其他: 自定义
   degree-type-en: [Master of Science in Engineering],
   major-en: [Computer Science and Technology],
-  author-en: [Zhang Sanyi],
-  supervisor-en: [Li Sier],
+  author-en: [ZHANG Sanyi], // 姓氏大写，名首字母大写
+  supervisor-en: [Professor LI Sier],
   author-affiliation-en: [Institute of Typst Chinese Academy of Sciences],
   // - declaration-page 声明页
   // - book-spine-page 书脊页，仅用于制作书脊，不用单独打印放入论文
