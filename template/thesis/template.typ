@@ -8,7 +8,7 @@
 
   // - 删除换行带来的空格
   // 注意 这种方法可能会多删或者漏删
-  import "@preview/cjk-unbreak:0.1.0": *
+  import "@preview/cjk-unbreak:0.1.1": *
   show: remove-cjk-break-space
 
   rest
